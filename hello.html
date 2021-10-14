@@ -1,3 +1,43 @@
-czc
-ftj
-fyujty
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Search</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/chromeicon.png">	
+		<link rel="stylesheet" href="google-search.css">		
+		<script src="https://kit.fontawesome.com/74a5d21abf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+		<nav>
+			<ul>
+			  <li>
+				  <a href="google-image.html">Image Search</a>
+			  </li>
+			  <li>
+				  <a href="google-advance.html">Advanced Search</a>
+			  </li>
+			  <li>
+				  <img src="img/apps-icon.png" alt="apps" width=20px>
+			  </li>
+			  <li>
+				  <button class="sn" type="submit">Sign In</button>
+			  </li>
+			</ul>
+		</nav>
+		<form name="g" action="https://google.com/search" method="get">
+			<div class="logo">
+				<img src="img/logogoogle.png" alt="Google" width=272px height=92px>
+			</div>
+			<div class="inputbox">
+				<i class="fas fa-search"></i>
+				<input type="text" name="q" placeholder="Search google or type a URL">
+				<i class="fas fa-microphone"></i>
+			</div>
+			<div class="button">
+				<input type="submit" value="Google Search">
+				<input name="btnI" type=submit value="I'm Feeling Lucky">
+			</div>
+		</form>
+    </body>
+</html>
